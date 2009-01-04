@@ -1,9 +1,1 @@
-log/*
-!log/.keep
-db/schema.rb
-db/*.sqlite3
-tmp/*
-!tmp/.keep
-*~
-*.diff
-*.swp
+*.DS_Store
