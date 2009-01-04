@@ -1,6 +1,7 @@
 ---
-layout: post
-title: holler
+layout: video
+title: hi, mom!
+video_title: something
 ---
 
-hi, mom!
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nibh risus, elementum ut, ultricies id, ultrices id, arcu. Nunc pellentesque ipsum eget leo. Proin ligula. Donec sed dui quis eros feugiat mattis. Donec lorem. Fusce mattis nisl ut sapien. Vestibulum vitae nibh eu dolor interdum eleifend. Ut lectus. In imperdiet leo quis risus. Phasellus malesuada tincidunt mauris. Vivamus libero dolor, placerat varius, dignissim in, accumsan porta, nisi. Quisque commodo, sem in accumsan pulvinar, lacus tortor volutpat velit, at euismod urna leo at risus. Curabitur et ante nec mauris convallis egestas. Integer urna. Vestibulum velit pede, ornare vel, sagittis et, imperdiet a, magna. Donec tempus enim elementum elit. Vivamus pulvinar. Maecenas risus elit, mollis eget, laoreet ut, convallis nec, neque. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
