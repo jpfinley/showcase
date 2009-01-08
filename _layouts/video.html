@@ -5,13 +5,13 @@ layout: default
 <div id ="video-container">
   <h2>{{ page.project_title }}</h2>
   <div id='video'>You must enable Javascript to see the video. Please do so in your browser's preferences.</div>
-  <div id='video-details'>
-    <dl>
+
+    <dl id='video-details'>
       <dt>Client</dt><dd>{{ page.client_name }}</dd>
       <dt>Date</dt><dd>{{ page.project_date }}</dd>
       <dt>Description</dt><dd>{{ page.project_description }}</dd>
     </dl>
-  </div>
+
 </div> <!-- video-container -->
 
 {{ content }}

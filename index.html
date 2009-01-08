@@ -1,9 +1,12 @@
 ---
 layout: default
-title: John Finley
+title: SITE TITLE GOES HERE
 ---
 
-<div>This is the index page</div>
+
 {% for post in site.posts %}
-  <a href=".{{ post.url }}">{{ post.title }}</a>
+  <div>
+    <h3><a href=".{{ post.url }}">{{ post.project_title }}</a></h3>
+    <p>{{ post.project_description }}</p>
+  </div>
 {% endfor %}
