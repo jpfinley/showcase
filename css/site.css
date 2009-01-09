@@ -1,17 +1,26 @@
 html, body { height:100%; margin: 0; }
-body { background-color: #EEEEEE; font-family: "Georgia", serif; }
+body { background-color: #F0F0F0; font-family: "Georgia", serif; }
+
+a { color: #000000; text-decoration: none; }
+ a:hover { text-decoration: underline; }
 
 #container { width: 980px; margin: 0 auto; background-color: #FFFFFF; min-height: 100%; position: relative; }
 
-#header { padding: 1em; }
+#header { padding: 1px 2em; }
 
-#content { margin: 0 1em; padding:10px; padding-bottom: 60px; }
+#content { padding-bottom: 2em; }
 
-#video-container { overflow: hidden; }
+h2#project-title { font-size: 41px; line-height: 1.2em; font-weight: normal; margin: 0 0 0.5em 0; }
+
+#video-container { overflow: hidden; margin: 0 2em; padding: 0px; }
   #video { width: 640px; float: left; }
-  #video-details { width: 270px; float: right; padding: 0 0.5em; margin: 0 auto; }
-    dl#video-details dd { margin-left: 100px; }
-    dl#video-details dt { width: 100px; float:left; }
+  #video-details { width: 260px; float: right; padding-left: 1em; margin: 0 auto; }
+    #video-details dd, dt { margin-bottom: 0.5em; }
+    dl#video-details dd { margin-left: 100px; color: #404040; }
+    dl#video-details dt { width: 100px; float:left; font-style: italic; color: #0080e0; }
 
+#description p { font-size: 18px; line-height: 1.4em; background-color: #c0a080; margin-bottom: 0; padding: 2em; padding-top: 1em; color: #202020; }
 
-#footer { background-color: lightblue; position: absolute; bottom: 0; width: 100%; height: 60px; }
+#footer { background-color: #202020; position: absolute; bottom: 0; width: 100%; height: 2em; line-height: 2em; }
+  #footer span { margin: 0 2em; }
+  #footer span a { color: #FFFFFF; }

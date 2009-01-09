@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div id ="video-container">
-  <h2>{{ page.project_title }}</h2>
+  <h2 id="project-title">{{ page.project_title }}</h2>
   <div id='video'>You must enable Javascript to see the video. Please do so in your browser's preferences.</div>
 
     <dl id='video-details'>
@@ -14,7 +14,7 @@ layout: default
 
 </div> <!-- video-container -->
 
-{{ content }}
+<div id="description">{{ content }}</div>
 
 <script type='text/javascript' src='../../../media_player/swfobject.js'></script>
 <script type='text/javascript'>
