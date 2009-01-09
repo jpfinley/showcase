@@ -1,6 +1,7 @@
 ---
 layout: video
 project_title: This is the product
+video_uri: video
 client_name: ACME Inc.
 project_date: 01/01/1979
 project_description: For this project, we were trying to go with a rock and roll clown thing.
