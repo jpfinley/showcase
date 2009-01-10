@@ -4,12 +4,17 @@ title: SITE TITLE GOES HERE
 ---
 
 <div id="header">
-  <h1 class="name">Name Namester</h1>
+  <h1 class="name">John Finley</h1>
   <h2 class="claim">rocks the party, hard.</h2>
 </div>
 
+<div class="content">
+<p class="copy-text" id="bio">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nibh risus, elementum ut, ultricies id, ultrices id, arcu. Nunc pellentesque ipsum eget leo. Proin ligula. Donec sed dui quis eros feugiat mattis. Donec lorem. Fusce mattis nisl ut sapien. Vestibulum vitae nibh eu dolor interdum eleifend. Ut lectus. In imperdiet leo quis risus. Phasellus malesuada tincidunt mauris.
+</p>
+
 {% for post in site.posts %}
-  <div>
+  <div class="post">
     <h3><a href=".{{ post.url }}">{{ post.project_title }}</a></h3>
     <p>{{ post.project_description }}</p>
   </div>
