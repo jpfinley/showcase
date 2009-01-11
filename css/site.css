@@ -39,5 +39,4 @@ h2#project-title { font-size: 41px; line-height: 1.2em; font-weight: normal; mar
 #description p { background-color: #c0a080; margin-bottom: 0; padding: 2em; padding-top: 1em; }
 
 #footer { background-color: #202020; position: absolute; bottom: 0; width: 100%; height: 2em; line-height: 2em; }
-  #footer span { margin: 0 2em; }
-  #footer span a { color: #FFFFFF; }
+  #footer span { margin: 0 2em; color: #FFFFFF; }
