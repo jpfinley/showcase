@@ -5,7 +5,7 @@ title: SITE TITLE GOES HERE
 
 <div id="header">
   <h1 class="name">John Finley</h1>
-  <h2 class="claim">rocks the party, hard.</h2>
+  <h1 class="claim">rocks the party, hard.</h1>
 </div>
 
 <div class="content">
@@ -13,9 +13,32 @@ title: SITE TITLE GOES HERE
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nibh risus, elementum ut, ultricies id, ultrices id, arcu. Nunc pellentesque ipsum eget leo. Proin ligula. Donec sed dui quis eros feugiat mattis. Donec lorem. Fusce mattis nisl ut sapien. Vestibulum vitae nibh eu dolor interdum eleifend. Ut lectus. In imperdiet leo quis risus. Phasellus malesuada tincidunt mauris.
 </p>
 
-{% for post in site.posts %}
-  <div class="post">
-    <h3><a href=".{{ post.url }}">{{ post.project_title }}</a></h3>
-    <p>{{ post.project_description }}</p>
+<div id="left">
+  <div>
+    <h2>R&eacute;sum&eacute;</h2>
+    <p>My work history is available <a href="#">here</a> as a PDF copy.</p>
   </div>
-{% endfor %}
+
+  <div>
+    <h2>Contact Information</h2>
+    <p>Feel free to shoot me an <a href="#">email</a>. If you're ever in the Chicago area, you can crash on my couch.</p>
+  </div>
+
+  <div>
+    <h2>About this Site</h2>
+    <p>You're looking at a site crafted with <a href="#">Jekyll</a> and hours and hours of post rock music. You can have a portfolio just like this; I've released the code powering this site as Showcase, an open-source project available on Github. This site itself is available under the MIT License while the text, video, and personal belongings are copyright 2009 John Finley.</p>
+  </div>
+</div>
+
+<div id="right">
+  <div>
+    <h2>Selected Works</h2>
+    {% for post in site.posts %}
+      <div class="post">
+        <h3><a href=".{{ post.url }}">{{ post.project_title }}</a></h3>
+        <a href=".{{ post.url }}"><img src="/public/smallbox.png"></a>
+        <p>{{ post.project_description }}</p>
+      </div>
+    {% endfor %}
+  </div>
+</div>

@@ -17,6 +17,13 @@ a { color: #0080e0; text-decoration: none; }
 
 p.copy-text { font-size: 18px; line-height: 1.4em; }
 
+  #left { width: 300px; float: left; margin-right: 0.5em; }
+  #right { width: 500px; float: right; margin-left: 0.5em; }
+    .post { margin-top: 1em; clear: both; overflow: hidden; }
+    .post h3 { margin: 0 0 0.25em 0; }
+    .post img { float: left; border: 2px solid #0080e0; margin: 0 0.5em 0.5em 0; }
+    .post p { margin: 0; }
+
 h1 a { font-weight: normal; color: #0080e0; }
 h2#project-title { font-size: 41px; line-height: 1.2em; font-weight: normal; margin: 0 0 0.5em 0; }
 
