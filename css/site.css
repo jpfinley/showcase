@@ -15,6 +15,7 @@ a { color: #0080e0; text-decoration: none; }
 
 .content { overflow: hidden; margin: 0 2em; padding: 0px; }
 
+#bio { margin: 3em 0; }
 p.copy-text { font-size: 18px; line-height: 1.4em; }
 
 .section { margin-bottom: 2em; }
@@ -22,7 +23,7 @@ p.copy-text { font-size: 18px; line-height: 1.4em; }
   #left { width: 300px; float: left; margin-right: 0.5em; }
   #right { width: 500px; float: right; margin-left: 0.5em; }
     .post { margin-bottom: 1em; clear: both; overflow: hidden; }
-    .post h3 { margin: 0 0 0.25em 0; }
+    .post h3 { margin: 0 0 0.3em 0; }
     .post img { float: left; border: 2px solid #0080e0; margin: 0 0.5em 0.5em 0; }
     .section p { margin: 0; }
 
