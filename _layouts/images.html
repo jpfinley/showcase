@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div id="header">
+  <h1><a href="/">Site Title</a></h1>
+</div>
+
+<div class="content">
+  <h2 id="project-title">{{ page.project_title }}</h2>
+  <div id='gallery'><a href="../../../facebox/remote.html" rel="facebox">text</a></div>
+
+    <dl id='video-details'>
+      <dt>Client</dt><dd>{{ page.client_name }}</dd>
+      <dt>Date</dt><dd>{{ page.project_date }}</dd>
+      <dt>Description</dt><dd>{{ page.project_description }}</dd>
+    </dl>
+
+</div> <!-- video-container -->
+
+<div class="copy-text" id="description">{{ content }}</div>
+<div id="info" style="display:none;">
+  text
+</div> 
