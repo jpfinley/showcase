@@ -8,7 +8,7 @@ layout: default
 
 <div class="content">
   <h2 id="project-title">{{ page.project_title }}</h2>
-  <div id='video'>You must enable Javascript to see the video. Please do so in your browser's preferences.</div>
+  <div id='video'><embed src="../../../public/isu6.mov" width="768" height="748"></div>
 
     <dl id='video-details'>
       <dt>Client</dt><dd>{{ page.client_name }}</dd>
@@ -19,12 +19,3 @@ layout: default
 </div> <!-- video-container -->
 
 <div class="copy-text" id="description">{{ content }}</div>
-
-<script type='text/javascript' src='../../../media_player/swfobject.js'></script>
-<script type='text/javascript'>
-  var s1 = new SWFObject('../../../media_player/player.swf','player','640','400','9');
-  s1.addParam('allowfullscreen','true');
-  s1.addParam('allowscriptaccess','always');
-  s1.addParam('flashvars','file=../../../public/{{ page.video_uri }}.flv');
-  s1.write('video');
-</script>
