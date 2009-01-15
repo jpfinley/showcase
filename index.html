@@ -53,8 +53,8 @@ function hivelogic_enkoder(){var kode=
     <h2>Selected Works</h2>
     {% for post in site.posts %}
       <div class="post">
-        <h3><a href=".{{ post.url }}">{{ post.project_title }}</a></h3>
-        <a href=".{{ post.url }}"><img src="/public/smallbox.png"></a>
+        <h3><a href="{{ post.url }}">{{ post.project_title }}</a></h3>
+        <a href="{{ post.url }}"><img src="/public/smallbox.png"></a>
         <p>{{ post.project_description }}</p>
       </div>
     {% endfor %}
